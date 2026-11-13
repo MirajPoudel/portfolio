@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Miraj Poudel — Portfolio"
+description = "A polished, responsive portfolio introducing Miraj Poudel as an aspiring AI/ML engineer and Python developer, highlighting authentic skills, projects, learning journey, and contact links."
+version = "1.0.0"
+id = "artifacts/miraj-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19661
+
+[services.development]
+run = "pnpm --filter @workspace/miraj-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/miraj-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/miraj-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19661"
+BASE_PATH = "/"

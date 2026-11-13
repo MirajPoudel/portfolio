@@ -1,0 +1,405 @@
+# Portfolio Website Design Prompt — Miraj Poudel
+
+## 1. Project Overview
+
+Create a modern, premium, fully responsive personal portfolio website for **Miraj Poudel**, a Computer Science student, aspiring AI/ML Engineer, and Python developer.
+
+The website should communicate technical knowledge, practical project experience, continuous learning, and passion for building real-world AI-powered solutions.
+
+**Professional identity:** Aspiring AI/ML Engineer | Python Developer | AI Application Builder
+
+The portfolio should look like a professional engineer's personal website rather than a generic student portfolio.
+
+Include a professional profile picture in the hero section. Use a clearly defined image placeholder if no profile photo is provided. Make it easy to replace later.
+
+## 2. Design Direction
+
+Create a minimal, premium, professional design with a dark visual theme.
+
+### Color palette
+- Primary background: Deep black (#09090F)
+- Secondary background: Dark charcoal (#11111B)
+- Primary accent: Purple (#8B5CF6)
+- Secondary accent: Electric blue (#3B82F6)
+- Primary text: White (#F8FAFC)
+- Secondary text: Muted gray (#A1A1AA)
+- Borders: Subtle dark gray
+
+### Visual style
+- Minimal and clean layouts.
+- Purple and blue gradient accents.
+- Subtle glassmorphism for selected cards.
+- Smooth scrolling and elegant transitions.
+- Soft glow effects on interactive elements.
+- Modern typography such as Inter, Sora, or Space Grotesk.
+- Rounded corners and subtle borders.
+- Generous whitespace.
+- Avoid excessive gradients, glowing effects, and unnecessary visual clutter.
+
+The website should feel elegant, technical, and professional.
+
+## 3. Website Structure
+
+Create the following sections:
+
+### A. Navigation Bar
+
+A clean, sticky navigation bar containing:
+- Personal logo or text logo: `MP.`
+- Home
+- About
+- Skills
+- Projects
+- Services
+- Contact
+
+Include:
+- Smooth scrolling.
+- Active navigation indicators.
+- Responsive mobile navigation menu.
+- A prominent "Let's Connect" button.
+
+### B. Hero Section
+
+The first screen should immediately communicate who I am.
+
+Main heading:
+
+"Hi, I'm Miraj Poudel."
+
+Professional headline:
+
+"Building Intelligent Solutions with AI & Machine Learning."
+
+Short introduction:
+
+"I'm a Computer Science student and aspiring AI/ML Engineer passionate about transforming ideas into practical applications using Python, Machine Learning, and Artificial Intelligence."
+
+Add two CTA buttons:
+- Explore My Projects
+- Let's Connect
+
+Include:
+- Professional profile picture on the right side.
+- Subtle purple/blue gradient background effects.
+- Small floating technology labels such as Python, Machine Learning, FastAPI, and AI.
+- Animated text or subtle entrance animation.
+- A scroll-down indicator.
+
+Do not use an overly complicated hero animation.
+
+### C. About Me Section
+
+Section heading: "A Little About Me"
+
+Content:
+
+"I'm an aspiring AI/ML Engineer currently pursuing a Bachelor's degree in Computer Science and Information Technology (BSc CSIT) at Lumbini ICT Campus, affiliated with Tribhuvan University.
+
+My journey in technology revolves around learning, experimenting, and building. I have explored Python programming, data analysis, machine learning, deep learning fundamentals, and AI application development.
+
+I enjoy working on projects that solve practical problems and help me understand how technology can make everyday tasks easier. From developing machine learning prediction systems to building AI-powered applications and participating in hackathons, I continuously seek opportunities to improve my technical skills.
+
+My long-term goal is to become a skilled AI/ML Engineer and contribute to meaningful technology solutions."
+
+Add a compact information panel:
+- Name: Miraj Poudel
+- Education: BSc CSIT
+- Institution: Lumbini ICT Campus
+- University: Tribhuvan University
+- Career Goal: AI/ML Engineer
+- Location: Nepal
+
+Do not invent graduation dates, employment history, certifications, or achievements.
+
+### D. Technical Skills Section
+
+Section heading: "My Technical Arsenal"
+
+Display skills using visually appealing categorized cards.
+
+**Programming & Backend**
+- Python
+- FastAPI
+- PHP (Basic)
+- REST API Development
+
+**AI & Machine Learning**
+- Machine Learning
+- Scikit-learn
+- NumPy
+- Pandas
+- Data Preprocessing
+- Feature Engineering
+- Model Training and Evaluation
+- LangChain
+- RAG
+- LLM Integration
+- AI Agents
+
+**Databases**
+- MongoDB
+- SQLite
+
+**Data Visualization**
+- Matplotlib
+- Seaborn
+
+**Tools & Platforms**
+- Git
+- GitHub
+- Jupyter Notebook
+- Streamlit
+- Docker (Learning)
+
+Use clean technology cards with recognizable icons where available.
+
+Skill levels should not be represented using fabricated percentages or progress bars.
+
+### E. Projects Section
+
+Section heading: "Projects I've Built"
+
+This should be one of the most visually important sections.
+
+Use interactive project cards with:
+- Project image or custom thumbnail.
+- Project name.
+- Short description.
+- Technology stack.
+- Project category.
+- GitHub link placeholder.
+- Live demo link placeholder.
+- Hover animations.
+- A detailed project view or modal.
+
+Organize projects into categories.
+
+**1. Lumbini Cortex AI**
+
+Category: AI / RAG Application
+
+Description:
+
+"An AI-powered college assistant designed to help students access institutional information through an intelligent chatbot. The project uses website data collection, document processing, retrieval-based question answering, and Gemini integration to provide relevant responses."
+
+Technologies:
+Python, Streamlit, LangChain, Gemini, ChromaDB, SQLite.
+
+**2. DocMind AI**
+
+Category: AI / Document Intelligence
+
+Description:
+
+"A personal AI-powered PDF assistant that allows users to upload documents, extract and process content, retrieve relevant information, and interact with their documents through natural language questions."
+
+Technologies:
+Python, Streamlit, LlamaParse, RAG, LLM Integration.
+
+
+**6. AI Data Analyst**
+
+Category: AI / Data Analysis
+
+Description:
+
+"An AI-powered data analysis application concept aimed at simplifying data exploration and helping users gain insights from datasets."
+
+Clearly label its development status accurately.
+
+**8. BugShield-AI**
+
+Category: AI / Multi-Agent Systems / Developer Tools
+
+Description:
+
+"An AI-powered code review tool that helps developers identify bugs, security vulnerabilities, performance issues, and code style problems. It uses a four-agent AI pipeline to analyze code pasted directly, uploaded as a file, or provided through a public GitHub file link. The system runs entirely on a local, self-hosted LLM using Ollama, without requiring external API keys."
+
+Technologies:
+Python, AI Agents, Multi-Agent Architecture, Ollama, Local LLMs, Code Analysis.
+
+**9. PHP Forum Website**
+
+Category: Full-Stack Web Development
+
+Description:
+
+"A dynamic online forum website built using PHP and MySQL that allows users to register, log in, create discussion topics, and interact through community-based discussions. The project demonstrates practical experience with backend development, session-based authentication, database management, and dynamic web applications."
+
+Technologies:
+PHP, MySQL, HTML, CSS, Bootstrap.
+
+Description:
+
+"A machine learning classification project using the Kaggle Spaceship Titanic dataset. The project explores data preprocessing, categorical encoding, feature engineering, model training, and prediction."
+
+Technologies:
+Python, Pandas, NumPy, Scikit-learn, Jupyter Notebook.
+
+Important:
+- Never invent GitHub repository URLs.
+- Never invent live demo links.
+- Use editable placeholders for project URLs.
+- Clearly distinguish completed projects from concepts and ongoing projects.
+
+### F. Services Section
+
+Section heading: "What I Can Build"
+
+Present these as technical capabilities rather than claiming established freelance services.
+
+**1. Machine Learning Solutions**
+
+Develop predictive models and data-driven applications using machine learning algorithms.
+
+**2. AI Application Development**
+
+Build practical applications powered by LLMs and AI APIs.
+
+**3. AI Agent Development**
+
+Explore and develop intelligent agents and automated AI workflows.
+
+**4. Backend & API Development**
+
+Create Python-based backend applications and REST APIs using FastAPI.
+
+**5. Data Analysis**
+
+Clean, preprocess, analyze, and visualize datasets to discover useful insights.
+
+Use minimal service cards with simple icons and short descriptions.
+
+Do not include RAG Chatbot Development as a separate service.
+
+### G. Learning & Career Journey
+
+Section heading: "My Journey"
+
+Create a simple vertical timeline highlighting:
+
+- Computer Science and Information Technology education.
+- Learning Python programming and data analysis.
+- Exploring Machine Learning and predictive modeling.
+- Building AI applications using LangChain and LLMs.
+- Developing practical projects and participating in hackathons.
+- Continuing toward a professional AI/ML engineering career.
+
+Avoid adding invented dates or milestones.
+
+### H. Contact Section
+
+Section heading: "Let's Build Something Together"
+
+Introduction:
+
+"I'm always interested in connecting with developers, AI enthusiasts, and people working on innovative ideas. Feel free to reach out if you'd like to collaborate, discuss technology, or explore opportunities."
+
+Display:
+
+GitHub:
+https://github.com/MirajPoudel18
+
+LinkedIn:
+https://www.linkedin.com/in/miraj-poudel-198101295/
+
+Email:
+[ADD EMAIL HERE]
+
+Include:
+- Contact form with name, email, subject, and message.
+- Email contact button.
+- Social media links.
+- Clear success and error feedback for the contact form.
+
+Do not pretend the contact form sends messages unless a backend or email service has actually been integrated.
+
+### I. Footer
+
+Include:
+- MP. personal logo.
+- "Designed & Built by Miraj Poudel."
+- GitHub and LinkedIn icons.
+- Copyright year dynamically generated.
+- Back-to-top button.
+
+## 4. Animations & Interactions
+
+Use subtle, professional animations:
+- Smooth page scrolling.
+- Fade-in and slide-up section reveals.
+- Interactive project cards.
+- Gentle hover effects on buttons.
+- Subtle gradient movement.
+- Smooth mobile navigation.
+- Animated navigation indicators.
+- Lightweight background effects.
+
+Use Framer Motion if developing with React.
+
+Animations should be smooth and lightweight. Avoid unnecessary animations that reduce performance.
+
+## 5. Responsive Design
+
+The website must work perfectly on:
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+Mobile requirements:
+- Collapsible navigation.
+- Single-column project cards.
+- Properly sized typography.
+- Optimized images.
+- Touch-friendly buttons.
+- No horizontal scrolling.
+
+## 6. Technical Requirements
+
+Recommended technology stack:
+- React or Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React icons
+
+Development requirements:
+- Reusable components.
+- Clean and maintainable code.
+- SEO-friendly metadata.
+- Accessible color contrast.
+- Optimized image loading.
+- Semantic HTML.
+- Functional navigation and links.
+- Easy-to-update project data.
+- Environment variables for any API credentials.
+
+Do not add unnecessary backend infrastructure if the portfolio is intended to be a static website.
+
+## 7. Special Design Requirements
+
+1. The website must look like a premium personal portfolio, not a generic template.
+2. Prioritize the About, Skills, and Projects sections.
+3. Make projects visually engaging and easy to explore.
+4. Use a professional profile picture in the hero section, with an editable placeholder initially.
+5. Keep the design minimal despite using dark backgrounds and gradient effects.
+6. Use authentic information only. Never fabricate professional experience, achievements, certifications, or project statistics.
+7. Keep the website easy to maintain and update as my technical skills and projects grow.
+8. Add placeholders wherever information is missing instead of inventing details.
+
+## 8. Final Design Goal
+
+The final result should present Miraj Poudel as a motivated, technically curious, project-oriented aspiring AI/ML Engineer.
+
+When someone visits the website, they should quickly understand:
+- Who I am.
+- What technologies I work with.
+- What I have built.
+- What problems I am interested in solving.
+- How they can connect with me.
+
+Create a visually impressive, modern, minimal, dark-themed professional portfolio that communicates technical credibility, curiosity, and potential.
+
+The website should be polished enough to share with recruiters, internship providers, hackathon organizers, and fellow developers.
